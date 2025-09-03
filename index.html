@@ -1,10 +1,14 @@
 <DOCTYPE! html>
 <html>
-<body style="background-color:000000">
+<body class="body">
 <head>
 <title> moose's.world </title>
 </head>
 <style>
+	.body {
+		background-color:000000;
+	}
+	
 	.heading {
 		font-family: courier new;
 		color:green;
@@ -27,6 +31,26 @@
 	}
 	
 	.othermes-button {
+		background-color: 464343;
+		color: green;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
+	}
+	
+		.theatre-button {
+		background-color: 464343;
+		color: green;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
+	}
+	
+	.blog-button {
 		background-color: 464343;
 		color: green;
 		font-family: courier new;
@@ -59,7 +83,17 @@ onclick="window.location.href='other me's.html'">
 other me's 
 </button>
 
+<button class="theatre-button" 
+onclick="window.location.href='theatre.html'"> 
+theatre
+</button>
+
+<button class="blog-button" 
+onclick="window.location.href='blog.html'"> 
+blog
+</button>
+
+
 
 </body>
-
 </html>
