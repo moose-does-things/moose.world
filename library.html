@@ -27,7 +27,7 @@
 	}
 	
 	.tr:hover {
-		background-color: 464343;
+		background-color: 505050;
 		font-family: courier new;
 		color: green;
 		background color: 464343;
@@ -46,13 +46,50 @@
 		cursor: pointer;
 		margin: 5px;
 	}
+	
+	.home-button:hover {
+		background-color: green;
+		color: 434646;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
+	}
+		
+	.title {
+		font-family: courier new;
+		color: green;
+		font-size: 16px;
+		font-weight: bold;
+		font-style: italic;
+		margin: 5px;
+		text-decoration: underline;
+	}
+	
+	.story {
+		font-family: courier new;
+		color: green;
+		margin: 10px;
+	}
+	
+	.link {
+		font-family: courier new;
+		color: 551A8B;
+	}
+	
+	.warn {
+		font-family: courier new;
+		color: green;
+		font-size: 18px
+	}
 
 </style>
 
 
 <h1 class="heading"
 align="center"> 
-Library 
+Dreaming Library 
 </h1>
 
 <h2 class="sub-heading"
@@ -65,31 +102,545 @@ onclick="window.location.href='index.html'">
 center of the universe
 </button>
 
+<p class="warn">
+<b> !WARNING! </b>
+<br></br>
+Any title marked with an * is a work of horror fiction. Read at your own discretion.
+All of these stories are original works of fiction. No character or scenario is based on reality.
+</p>
+
+<br></br>
+
 <table class="table">
 	<tr class="tr">
-		<th class="th"> title </th>
-		<th class="th"> description </th>
-		<th class="th"> link </th>
+		<th class="th"> Title </th>
+		<th class="th"> Date written </th>
+		<th class="th"> Blurb </th>
+		<th class="th"> Link </th>
 	</tr>
 
 	<tr class="tr">
-		<td class="th"> story 1</td>
-		<td class="th"> descript 1 </td>
-		<td class="th"> link 1</td>
+		<td class="th"> No Man's Ball </td>
+		<td class="th"> 2024 </td>
+		<td class="th"> The journey to a grand ball. </td>
+		<td class="th"> <a href="#nmb" class="link"> Teleport </a> </td>
+	</tr>
+
+
+	<tr class="tr">
+		<td class="th"> In A Mother's Love* </td>
+		<td class="th"> 2022 </td>
+		<td class="th"> A man reflects on his mother's love in the midst 
+		<br></br>
+		of preparing a gift for his loved one. </td>
+		<td class="th"> <a href="#iaml" class="link"> Teleport </a> </td>
 	</tr>
 
 	<tr class="tr">
-		<td class="th"> story 2 </td>
-		<td class="th"> descript 2</td>
-		<td class="th"> link 2 </td>
+		<td class="th"> Dear Diary* </td>
+		<td class="th"> 2023 </td>
+		<td class="th"> An ancient diary entry. </td>
+		<td class="th"> <a href="#dd" class="link"> Teleport </a> </td>
 	</tr>
-
+	
 	<tr class="tr">
-		<td class="th"> story 3 </td>
-		<td class="th"> descript 3 </td>
-		<td class="th"> link 3 </td>
+		<td class="th"> Ignorance is Bliss* </td>
+		<td class="th"> 2022 </td>
+		<td class="th"> Spring at the park looks almost like a painting. </td>
+		<td class="th"> <a href="#iib" class="link"> Teleport </a> </td>
+	</tr>
+	
+	<tr class="tr">
+		<td class="th"> Coping Mechanisms* </td>
+		<td class="th"> 2023 </td>
+		<td class="th"> Some people just can't handle it. </td>
+		<td class="th"> <a href="#cm" class="link"> Teleport </a> </td>
+	</tr>
+	
+	<tr class="tr">
+		<td class="th"> Cupid </td>
+		<td class="th"> 2023 </td>
+		<td class="th"> Obsession. Noun. an idea or thought that continually
+		<br></br> preoccupies or intrudes on a person's mind. </td>
+		<td class="th"> <a href="#c" class="link"> Teleport </a> </td>
+	</tr>
+	
+	<tr class="tr">
+		<td class="th"> Untitled </td>
+		<td class="th"> 2025 </td>
+		<td class="th"> She's in a shitty situation. It's all his fault.
+		</td>
+		<td class="th"> <a href="#unt" class="link"> Teleport - Chapter 1 </a> </td>
+	</tr>
+	
+	<tr class="tr">
+		<td class="th"> The Forest </td>
+		<td class="th"> 2020 </td>
+		<td class="th"> A weekend camping in the forest doesn't go to plan.
+		</td>
+		<td class="th"> <a href="#tf" class="link"> Teleport </a> </td>
+	</tr>
+	
+	<tr class="tr">
+		<td class="th"> A Haunted Attraction </td>
+		<td class="th"> 2023 </td>
+		<td class="th"> Tate is looking for a job and applies at Watt Farms, 
+		<br></br> but is it the fact that it's a haunted house attraction 
+		<br> </br> making it scary or something more sinister?
+		</td>
+		<td class="th"> <a href="#aha" class="link"> Teleport - Chapter 1 </a> </td>
 	</tr>
 </table>
+
+<br></br>
+
+<div id="nmb"></div>
+<p class="title"> 
+No Man's Ball 
+</p>
+<p class="story">
+My hair sways gently with the evening breeze, skin prickling at its slight bite. The cab trundles on the paved road and my shoes tap at each movement. As the scenery around me becomes more civilised the chattering behind me slowly increases in volume. Murmurs of excitement and exclamations of “is it really your first ball?” reminds me of who I’m taking where. Those young people are caught up in a fantasy of living forever in a world filled with laughter and dancing. Just wait until reality hits them. The change from sparse houses and open fields to small city buildings packed together are another reminder of the rapid increase of motorised vehicles. It has slowly spread to the countryside and almost eradicated horse-drawn cabs. Who knows what the world beholds next for an old soul like me.
+<br></br>
+I can't help but remember my youth. Born and raised on a farm, working since I could walk. Days filled with labour and nights cold sleep. Mother and Father weren’t  around to accompany me often, in fact I'd hardly noticed when they were carted away. Life had remained the same poor, monotonous chore it'd always been until I discovered a secret passage. The one in between the barn and house, perfect for my size, where I first became enthralled with the intricacies of a finer life, Picture upon picture of gowns, dainty shoes, polished floors, bright lights and dancing. I would visit that window as often as I could letting my eyes graze and my mind wander upon my one true wish. Of course that was all forgotten when as a teen I’d been dragged away to Restor. My hopes lifted but as quickly diminished. That was where I was sent to work with horse-drawn cabs. My name was no longer and I became HDC-12920 for convenience sake. Most of my days were spent wheeling produce farm to farm, working as a subordinate to everyone around me. Restor was supposed to be a fresh start; and it was. In all the wrong ways.
+<br></br>
+A light from my right sends me hurdling back down to reality. I shuffle uncomfortably with the reins for a moment before a turn reveals the source. People flux the grand double doors, dressed to impress. Excited chatter, notes plucked by tuning musicians, expensive heels slinking. I’m slowly drawn closer on a cloud of floral hints and musky colognes. Finally at a stop I get a chance to breathe the complete scene in. Ladies in their poofy dresses waft by, kicking up a slight wind. Boys dappered up in fine suits shuffling around like little waddles of penguins. A crane of the neck reveals a magnificent foyer created by silken curtains, grandma patterned carpets and a dusty orange hue to fully set the mood. The building exuded suave elegance, I’m almost wishing I could bathe in it.
+<br></br>
+The slight jolt of the cab notifies me of my passengers departure. My sad eyes watch as they enthusiastically run into the ball; not even sparing me a glance. Each and every patron getting sucked in; moths to a flame. A quick stream of air shoots out my nostrils as I prepare for a night of standing around so close, yet so far, from my one true dream. I’ll never get a fancy garment. I’ll never get to grace those grand doors. I’ll never get to dance, I’ll never get to feel the ballroom floor, I’ll never get to be-
+<br></br>
+“Hey.”
+<br></br>
+My eyes snap up to the culprit of my disruption.
+<br></br>
+“Why the long face?”
+<br></br>
+Lester chuckles at his awful joke as his hand finds purchase on my shoulder. I roll my eyes, like I haven't heard that one before. One hand rummages in his pocket for a second. After a minute it emerges in a fist, flattening to reveal a sugar cube. 
+<br></br>
+“C'mon boy” reaching closer to my mouth “take the treat” he urges.
+<br></br>
+Sorrow ruined my appetite; my head shakes.
+<br></br>
+“You don't want it?” Lester presses even closer. shaking the cube slightly as if it would somehow make it more appetising. I begin to pull my whole body away from him, in order to hopefully make my point clear. With a sight he pockets the food and retreats to the opening of an alleyway with the mumble of “dont know whats wrong with you tonight Habit.”
+<br></br>
+He leans against the crumbling white brick of the venue. Now that all the attendees, or ‘ball-goers’ as he poorly calls them, have retreated inside Lester and all the other cab drivers can relax. Almost like a reflex a lighter and cigarette appear. Work-worn hands effortlessly light up the cancer stick, calloused fingers bring it to eager lips. A deep drag pulls the flame inwards, lighting up the ash almost as candles a ballroom. I’ve seen him do it hundreds of times but this time there's something mesmerising about the way smoke escapes into the cool night air, travelling up and up and up. Almost as if it has pinprick talons desperately grabbing each branch; climbing, climbing the trees just behind them. Tall trees…
+<br></br>
+Lots of trees…
+<br></br>
+My brows furrow as I try to move and get a better look at the bush, just through the end of the alleyway, but the reins hold me steadfast in place. No angle grants me proper access and my frustration is growing. My neck starts swinging more and more free, wildy to and fro; all I want is to see the trees, a nice view while I wait to be put to work again. Lester eyes me cautiously, stomping the rest of his relief underfoot to slowly approach me.
+<br></br>
+“Hey Habit, hey boy…What's going on?” He raises his hands towards me, I increase my movements. He can't stop me.
+<br></br>
+“Hey man, what's it doing?” Another driver stalks over.
+<br></br>
+“I don't know. Help me!”
+<br></br>
+Panic sets upon the air as the two men try to tame me. Fuelled by the laughter and music ebbing out of the doors, elegant shadows happily clouding the windows, I can be part of that life. 
+<br></br>
+“What's wrong with your cab horse?!”
+<br></br>
+I am part of that life.
+<br></br>
+Rearing up on my hind legs a fire in mer bursts as the shackles holding me down do. The steady thump, thump, thump, of my heart has picked up and for a moment I don't notice Lester and the strange driver had backed away; apprehension in their steps and fear written in their eyes. A calm second passes, all of us looking to see who’ll make the next move…
+<br></br>
+In what feels like a century both men are leaping to take a hold of me, as I race to the alley's entrance. It’s much smaller than I'd perceived but with a huff I squeeze through. The bricks of each building practically scrape my skin but I can't find it in myself to care. The burn brings me back to that passageway, sneaking off to immerse myself in a finer world. Now I’m storming off to a life of freedom.
+<br></br>
+Upon the first touch of grass my movement slows. Trotting across the small field no shoes can be heard chasing after me. Air rapidly fills my lungs, trying to still the thump, thump, thump of my heart as I stare at the forest before me. I had no idea cities beheld this type of beauty, always assuming their progress was eliminating nature; eliminating me. A whole new life, a wide world of freedom lay before me. I could build my own life of elegance and grace, never work for another man again. 
+<br></br>
+Taking one last look back at my old life Lester has disappeared. I wonder if he’ll miss me, we worked together for some time. He’d even bothered to nickname me, Habit as opposed to the imprisoning code Restor dubbed me. The ballroom dances on, but on the balcony leans a girl. The same one I’d escorted here tonight. Her features look sorrowful, tears brimming in her eyes. I take a moment to bask in this feeling of newfound freedom before turning and sprinting off into the foliage; not even sparing her a glance.
+</p>
+
+<br></br>
+
+<div id="iaml"></div>
+<p class="title"> 
+In A Mother's Love 
+</p>
+<p class="story">
+I held the angelic thing in my hands. It could’ve been the adrenaline, or the way muscles still twitch after death, but I swore it was still beating.
+<br> </br>
+<i> Thump. Thump. Thump. </i>
+<br></br>
+“Uh, sir?” My nurse, confidant really, gazes at me with bright eyes attempting to catch my attention. Ignoring his words I notice the shine coating the thing; empty lights glimmering in the juices. He cleared his throat. I swear, if he didn’t leave me alone I am going to harvest his next. “Not now Mancini.” knowing his place all too well, he decides not to pester further upon my words and begins tidying here and there-wiping blood off the scalpel and such. Once more all my attention was diverted back to my hands cupped at eye level. I kept admiring the prize of my handiwork. The little treasure I dug out. Smaller than my fist with smooth reds and pinks making up the body, highlighted by pasty grey, as blue veins accentuate the curves. Broad, pale cartilage tubes run out the top still sticky with crimson ichor. Thick ones too-they were quite difficult to cut through.
+<br></br>
+<i> Thump. Thump. Thump. </i>
+<br></br>
+It felt strange finally achieving my dream. I think of my father as I gently turn the jewel in my hand. He had been mad when I decided medical school was the way to go; too much money. Mother, though? Supporter through and through. Not only had she always been my number one in life, she taught me the most valuable lessons in life:
+<br></br>
+Treat all women with the utmost respect and kindness and
+<br></br>
+Go after the things you love.
+<br></br>
+Ah, love. It’s a funny thing really. Many in my life told me that I was incapable. ‘He’s a heartless monster!’ this and ‘You utter psychopath!’ that. Well I wish they could see what generous things I was doing now. My mother was also always generous in her love; buying me little gifts and collecting trinkets to hand to me on a rainy day. Personally, I think it’s a wonderful thing, for showing love and affection isn’t always on the cards but a little gift fills the time. It’s also one of the many habits I picked up from her.
+<br></br>
+<i> Thump. Thump. Thump. </i>
+<br></br>
+It was still pulsing. I might have gone to medical school, but my mind couldn’t recall this ever happening before. Was it normal? Hopefully not. It would just mean that I picked the right one. Special. I imagine it was choking of sorts. Trying to pump blood, but nothing was there as a person falls to their knees gasping for air or a fish suffocates without water. 
+<br></br>
+“S..Sir? Don’t you think you should put it in the box now?”
+<br></br>
+Once again, my internal monologue interrupted by Mancini. He was right though. I carried the vascular organ as if it is a piece of glass and carefully laid it among the ripped up tissue paper. Lifting the lid on, I admired the probably over-passionate love letter atop the baby pink cardboard. I’m no artist, but with a little bit of Mancini’s help I managed to make an elegant gift box, covered in sequins and glitter glues and all those little things I noted she likes. I thought back to what mother always said…
+<br></br>
+<i> Thump. Thump… thump… </i>
+</p>
+
+<br></br>
+
+<div id="iaml"></div>
+<p class="title"> 
+Dear Diary, 
+</p>
+<p class="story">
+This man has invaded our lives and nobody is doing anything about it. The chief welcomed him with open arms, the townspeople are showing him around, the children are playing games with him. But I see through it all. 
+<br></br>
+It was nighttime when he arrived. He shows up in this fancy boat, made of all coloured woods and larger than some of our biggest buildings. That was the first warning sign. He struts out with many people following him and “asks” if he can document us for research. The chief had dinner with him and conversed like old mates before agreeing to help with his studies. It's been 10 days and 9 nights since he’s set up here for good, I’ve been keeping track. He commands one of the people who follows him around to write what we do on this mysterious brown material with a feather. He talks to everyone and everybody with such kindness and plays with the village kids like he is an older brother. It’s worrying.
+<br></br>
+I’ve tried everything, I’m afraid. I ignored him when he tried to converse with me. I attempted to lessen his rations the tribe is supplying. I even snuck onto his giant boat. It had walls lined with little white sticks that had fire on top, and on the floor were rugs made out of some soft, coloured material arranged to make patterns. There were multiple walls inside one part of the boat and large pieces of fitted wood with shiny rocks attached in between, which was confusing to navigate but I found my way into a useful place. It had shelves upon shelves of foreign items. That's where I got this that I’m writing on, and with (what a peculiar way of documenting!). 
+<br></br>
+Dear Diary, 
+<br></br>
+It finally happened. True colours were shown, people died. I tried to warn him, I really did. Him and his followers will keep the village fed for quite a long time. Up until winter, even. I do not feel good about it; I could even say my attempts were more on the futile side. On the bright side, I have many more papers (that's what one of his followers said they were called) to write with.
+</p>
+
+<br> </br>
+
+<div id="iib"></div>
+<p class="title"> 
+Ignorance is Bliss 
+</p>
+<p class="story">
+There was a light breeze, perfect for the spring day it was. The swings creaked and the trees swayed with it. Slowly, as the sun became slightly less warm and the flowers dropped a little more, people started pouring in. First, father, mother and son. The mother in her black and white polka dot dress, took the son to the playground, the brightly dressed child immediately going to his favourite item on the jungle gym, and the father-adorned in jeans and button up-laid down a blanket with a check pattern and sat atop next to a picnic basket. Not long after, another family arrived; this time with a boy and a girl, the girl a bit younger than the former. The little boy, in his white shirt, ran off to play with the other, whilst the rest of them set up camp with a classic flannel picnic blanket and woven basket. It was a picture perfect scene with a father matching his son and the mother and daughter in block colour dresses. As midday slowly evolved into afternoon, the public space was filling up with families of the likes; all there to enjoy the weather, company and settle into a lazy afternoon.
+<br></br>
+Eventually a woman walked by. No husband or child to accompany her. She kept her distance as much as she could from the park’s other occupants; not wanting to disturb them…or herself. She took a seat on her knees and heels in-front one of the great oak trees lining the outside of the grass and sat as such for a while, not looking up. When she did, she broke into heavy sobs. Even then-even clad in all black-nobody paid her any attention, as they did to the bodies swaying from the branches in the breeze; for the perfect spring day it was.
+</p>
+
+<div id="cm"></div>
+<p class="title"> 
+Coping Mechanisms 
+</p>
+<p class="story">
+Blood sprays like piss out of the wound. The sound of metal sinking into flesh like a freshly sheathed sword pierces the woods surrounding us. The ripping of skin can barely be heard above your screams. That won’t be a problem soon, though. More blood pours and pools; below you, onto my new jeans, my clean hands, the knife's blade. Your flesh breaks in two as you're stabbed again, harder this time as the spinal cord can be a tough competitor. Yanking the knife out I wonder; I’d thought it would be so pleasant to let out some frustrations but this is a lot more exercise than I’d been hoping. And good lord, let's not get started on what the clean up will be like. Hair in my eyes. I shake it back, exhale the negative thoughts and decide to enjoy the moment while it lasts. Your panicked yells now muted, huffs and groans fill the otherwise dead air as I decorate with a few more holes. My arms reach above my head, the knife catching in the sunlight beautifully before I slam down and yank toward myself, creating a nice, long gash. Bits of flesh and organ litter the forest floor creating a wet, puke-like sound. A nice touch to top it all off. Dropping the knife and moving to sit, knees up, arms across them, back against a sturdy oak, I breathe for a moment. The birds still sing, the crickets still chirp, the river still rushes along. I look to where I dropped my jacket and grab a fistful of the leather. Dragging it toward myself, a small beat up box escapes an open pocket. I stare for a moment, debating, before grabbing it. “Fuck it. I’ve had a day” the excuse resounds as I pop one of the last cancer sticks between my lips.
+</p>
+
+<div id="c"></div>
+<p class="title"> 
+Cupid 
+</p>
+<p class="story">
+Weighed down. Each step filled with lead, every sigh a waterfall cascading down. A heaviness so much more than that of guilt. Every atom of your being composed of osmium. Intestines slither around your gut, twisting, tying, pulling tight. Marathons of blood seamlessly flow through cor and face lights up in colour. Unable to move as waves of intolerant energy light up every corner of the room. Pressed down by unforgiving heat. Being beaten from the inside out. One moment you are trapped-walls too close, not enough space to contain this astronomical feeling-the next you are brought back down to earth as laboured breathing hints at apathy rolling off slouched shoulders. Despite any and all life already drained out of your feeble form, fingers remain pricked by the cruel thorns of Venus. But it is not your blood that spills out to fill the sick and twisted ways of Her, rather those of the unattainable. Mind walks up to the projector and searches for peace but all that is found is slide after slide of amantes. Mouths pulled, fingertips linger, two souls brought in an unbreakable embrace. Hot tears fall from tired eyes, yet don’t belong. Although they do signify cupere, it is not your own. It is the heavy, warm, greedy desire you cannot help but devote oneself to. An almost voyeuristic witness to their passion. A trace of guilt remains smeared there, but who can deny what they were made? Who are you to defy what you are? Constant preoccupation with any but your own. Full beads of sweat join the sobs in staining your skin. But you keep looking on. Amare alquis amore. That is your job. That is your existence. Cupid.
+</p>
+
+<div id="unt"></div>
+<p class="title"> 
+Untitled Story - Chapter 1
+</p>
+<p class="story">
+Fucking. Kian.
+<br></br>
+Not literally…well, maybe literally but that was the New Years I was drunk out of my mind because Lin forgot to tell me, leaving me ignorant to the fact the drinks she mixed up for the evening was much less 70/30 and more so 60/40; in favour of the liquor. 
+<br></br>
+And I’d just spent the last year and a half alone because Jason decided that ‘taking a break’ meant ghosting me and only ever showing up in the form of a Facebook post 5 months later announcing his new girlfriend Tamara. Black long hair with either a healthy shine or greasy topcoat and cute green eyes, if you were a chipmunk that is. A gold foomfy dress made to look cheap enough to wear to the dance floor but cinched at the waist is a 5 inch belt and paired with tacky Versace style sandals - so fancy enough for dinner. A dress that currently sits in the back of my closet probably harbouring a new breed of spiders that he swore up and down wasn’t ‘made for me’. 
+<br></br>
+In fact everything I wear will probably one day be displayed in a museum of “2000’s crap we all thought looked good”. That gold dress, chunky sandals for every occasion and the black and white statement necklace I paired with a purple bandage dress from that very New Year’s Eve. It was so tight Evie almost broke the damn thing clean off trying to get it zipped all the way up; yet she was insistent it was in style. I was stretched so stiff holding on for dear life I could’ve walked out of that bathroom holding the same pose without the support of the doorframe. Evie was smarter than me (always has and will be but don’t tell her that or we’ll have a new roommate, name spelled E. G. O.) so she wore a dress over some jeans. Very red carpet of her.
+<br></br>
+That wasn’t always the case with Evie though. She was a strange one to crack at first. When apartment shopping the landlord somehow booked us both for the same viewing slot and decided to not waste anyone’s time and have us both view the place. So me, her, my dad, both her parents and 3 siblings and a baby all crowded into the place. The Barne’s family went left whilst me and my dad went right, straight to my now bedroom actually. It’s cozy, which is landlord bullshit for small as all hell, but the closet is decent and I share a door with the bathroom so you really can’t win them all. Just most. The living room and kitchen basically sit on top of one another and Evie’s room was a little bigger than mine, but no bathroom next door so fair's fair.
+<br></br>
+To clear the air and let us get a feel for the place the Barnes and dad shuffled into the hallway and left me and Evie to meet officially for the first time.
+<br></br>
+“So, what’re you doing here?”
+<br></br>
+“I’m sorry?” 
+<br></br>
+“Oh!” She lightly snorted. More of a nose scrunch to the newer people in her life. “I mean, why are you looking at this dump?”
+<br></br>
+“For school. I’m going to Eastbreak, just down the block”
+<br></br>
+“Me too actually. Fashion major. You?”
+<br></br>
+Finally my eyes landed directly on the woman across from me. I hadn’t really paid attention but her outfit says it all. Brown boots to match her wild hair, plain jeans and a fitted white shirt but a silver necklace to cut through the plain palate. It looked simple but spoke volumes.
+<br></br>
+“Animal science. Wanted to work at the zoo ever since I was a little girl.” 
+<br></br>
+Evie’s eyes shone with something I couldn’t quite place. Grey eyes. Matched with the moonstone hanging on the end of her necklace. 
+<br></br>
+After seeing the price of a small place like that, but so close to campus, me and Evie decided to become roommates and it’s been history ever since. I found out in a short span of 3 months living together that she 
+<br></br>
+A. Might’ve had secret ninja training
+<br></br>
+B. Loves a good game of golf
+<br></br>
+C. Has a keen distaste for mangoes 
+<br></br>
+and D. Absolutely can not resist an opportunity to party
+<br></br>
+Evie is a socialite for free, I’m actually pretty sure she gets high off of meeting other people and the general mingle of a good crowd. I on the other hand can only handle so much people-ing before I need a break. Unfortunately though that means quiet time on a windy balcony when the third play-through of Adam Lambert’s “If I Had You” blasts also means you’re open for anyone to approach you. Anyone like Kian Astrada.
+<br></br>
+Astrada is a fairly well known name around Eastbreaks campus. Depending on who your clique is depends on what stories get passed onto you. Kian is in a long line of six brothers, all who dominated Eastbreak’s campus in one way or another. 
+<br></br>
+If you're in with the business majors you’d hear stories of Samuel Jr Astrada. The eldest and most known of the brothers, Samuel was a perfect mix in his youth. Good grades, a circle of friends, never too cocky but wouldn’t let anything slide under his radar and a nice girl on his arm as the cherry on top. Samuel, or as most people knew him Sam, was the heir to the throne of his fathers business empire by birthright. First come, first served. Despite claims he already knew all he had to going in to the shipping business, Sam decided a brush up worth about 3 years in University would serve him right as he took it over.
+<br></br>
+Naturally everyone looked to the twins Leonardo and James to stake their claim in the business as well. Make it a family gimmick. This could’ve worked for James as he was stuck for a few years. Flitting between schooling and home life he didn’t quite have a direction yet. Rumour was their mother had fallen ill at the time and he burdened it. Not the same could be said for Leo. The education department had an interesting ride with that one. A good guy and all, but they got special permission from the board to allow a summer extension programme just so Leo could pass. He could never really pass any exams; sitting still for hours staring at a paper broke the connection between his neurons. But put him in front of a whiteboard? Leo could explain rocket science to a kid. This talent of his was handy for the practical tasks of his career, not so much the tests. Ergo, summer extension. Some say it’s the family money, some say it was pure personality. Either way he graduated in time and actually teaches at my younger sister's school.
+<br></br>
+When things finally stayed looking up for Mrs Astrada, James decided to dominate the school's law programme. Being older than most of his peers has the advantage of the younger students crowding to him for life advice, study tips and general wisdom that came with his superior. At least that’s what gets spouted from the professor's memory. The student reiteration has more to do with legally bought booze than any so-called “wisdom”. Freshman parties were off the rails the year he came and conquered, thus solidifying his popularity for the rest of his Eastbreak years. 
+<br></br>
+Well, what do you really define popularity as? The jocks and cheerleaders? The scholars and summa cum laude’s? The mass majority of average Jane’s and Joe’s running the mill? My point is, some would say the next youngest Astrada brother didn’t ever stake his claim to rule the school as the others before him did. As a matter of fact Niko never even went to Eastbreak. You know the dingy car with one door that’s a different colour, the windows stick when you try to roll them down and an indistinguishable pile of cloth lives in the back seat? That was where Niko lived on campus. Parked in the corner of B-lot right near a patch of trees and a low enough brick wall for him to sit atop and sell weed. Niko ran with the rejects, misfits, social outcasts. Really they were all just punk wannabes. Spiked up hair and even more spiky attitudes. The only real reason Niko ever became popular is because, despite his hiding it, his last name eventually got out and so did all the rumours and legacy along with it. That, and he was the most convenient dealer on campus. 
+<br></br>
+Cameron picked up where James left off. The first of the brothers to take an arts course. He double majored in music and the arts. The beginning of Cameron was relaxed; no one knew his last name, he made a few friends, did good in his classes and basically lived any normal uni experience. He could’ve, and probably would’ve, flown under the radar of most of Eastbreak's student population until Blake Henderson’s 'End of Freshies Party'. 
+<br></br>
+The end of Cameron’s freshman year was drawing up and as any frat president would do, Blake threw a massive rager. There were only 3 frats belonging to Eastbreak at that time. Delta Iota, Tau Phi and Alpha Rho Kappa. DI was run by a guy named Ricky who allegedly let Niko stay in the frat until the university administration found out and made him leave because he wasn’t a student. That house is still permanently soaked in the smell of weed but the professors never seem to mind as one of the main fields is directly behind the DI headquarters and the groundskeeper always has his lawn mower exhaust pointed to the left. Meaning all that dead, chopped up grass stains the lower half of the house an earthy green. Tau Phi was an all rounder frat. James Astrada actually had some sort of official role in running the place, never top of the pack though. A good mix of bookworms and ball heads all got along in Tau Phi and they earned, and have kept, reputation of being the most respectable frat on campus. Alpha Rho Kappa was the opposite of that. Brimming with testosterone and misguided sexual energy, ARK was the centre hive of campus frats and also happened to be run by my brother.
+<br></br>
+As any youngest leader of a frat would do, the party he threw ended up getting shut down by the cops. But not before James and his band, Scoop Dive rocked the house down. Some drunk idiot fucked up the sound system and all hope was lost before James and his buddies came forward. Who knew a house full of jocks would have a couple guitars and drums laying around. 
+<br></br>
+This was also the night Cameron and Blake became best friends, and how I got mingled into the Astrada legends before I even started attending Eastbreak. Granted, I didn’t see much of Cameron bar for a few family events, things such as big Christmas get togethers where everyone had a plus one but brought two or St Patrick’s Day where the adults drank and the kids got high on sugar. 
+<br></br>
+Or a New Years Eve party hosted by the youngest and most annoying Astrada brother. Kian also stands out as the first of the brothers to be president of a frat on campus, his very own frat actually. Calls it Kappa Theta. Dumb name if you ask me. And an even dumber party. Tacky streamers thrown around stair bannisters and a sea of red cups dominating the space. Not to mention whoever made the playlist sounded like they hadn’t touched a radio in five years. Maybe it wasn’t so much the decorations or the playlist, maybe it was just the people. The memories with those people. 
+<br></br>
+About two weeks into knowing Evie we were both trying to adjust to this newfound adult freedom before school officially started. We helped each other unpack in an attempt to bond quicker. That evolved into quick judgement of my closet and a shopping spree where I became the first of to-be a long line of women dressed in the image of her artistic eye. She practically pulled my arm off pulling me into town, leading the way to a place that would soon become a second apartment for me.
+<br></br>
+The outside needed some work, its brown wood stain chipping and the turquoise paint signing Glamourama fading. I’m pretty sure if another business rented out the space the smell of vanilla pumpkin would never leave from its imprint in the walls. There’s not even a chance of that happening though. You’d have to pry the quirky, mainstreet staple from Evie’s mom’s dead hands. I’d surely had my reservations at first, no one will ever truly know how intimidating it is in front of a triad of mirrors as two Barnes’ women poke and prod at the shirt they insisted you model. Nonetheless the place is forever a reliable comfort in the messed up drama that is college. It’s true what they say, highschool really never does end.
+<br></br>
+Even as I sit here thinking of the absolute cluster-fuck of a situation I’m in, I can’t help but feel at least a little relaxed here. I can take a deep breath of dark oak, vanilla and cookies Mrs. Barnes made for me and Evie to take home - and exhale everything. Pure peace. 
+<br></br>
+Except for fucking Kian.
+<br></br>
+~
+<br></br>
+“Hey pretty”
+<br></br>
+A cold railing causes goosebumps on her skin. Were they there before? Maybe it was something else causing them. Something new. The few lights of suburban living that would still be on at eleven glitters across darkness. The moon helps light up the dark balcony from above as the party raging below raises it higher on a platform of yellow glow and muffled laughter. A slight breeze threatens to push over the almost empty red cup carefully placed on the crappy lawn chair; the only thing decorating the patio.
+<br></br>
+Well, the only thing besides her, for a while, and more recently him. He leans against the frame of the sliding door, an attempted act of nonchalance but an air of potential energy surrounds him. She turns, letting her once neatly styled blonde hair, now let out and damp, cascade down her shoulders.
+<br></br>
+“I thought I told you to stop calling me that.”
+<br></br>
+A chuckle is shared between the two. Taken out from her thoughts, she lifts her arms from the railing and now fully faces him. He moves to stand and she seats herself against the rails, gripping the top by her sides. She’s preparing for what inevitable dumb thing he’s going to say next.
+<br></br>
+“Oh, what would you prefer? Your majesty? The fairest in all the land? Madame?”
+<br></br>
+His hand rests close to hers now. So close the heat permeates off of it. It prickles her skin. His cologne invades the space. His words the only loud thing she’s heard since she came up here. Eyes locked on like predator to prey. Everything about him carries an intense weight. She shakes her head. Partially to fix her hair, partially to look away from him for a moment. A smile graces her face. He always had this strange habit of making anyone around him simultaneously intimidated and innately able to let go. Two smiles meet. Gazes greet each other. His head ducks ever so slightly, expecting. 
+<br></br>
+“Say my name, Kian.”
+</p>
+
+<div id="tf"></div>
+<p class="title"> 
+The Forest
+</p>
+<p class="story">
+I leaped over the fence, almost landing on my face, and book it for the woods.
+“Where you going? Crybaby!”
+I looked back and saw James and his minions quickly catching up to me. Slam! Papers were flying everywhere. 
+“Watch where you're going, kid!” The now angry business man yelled, trying to pick up the scattered papers that was a result of me crashing into him.  
+<br></br>
+I sped up, seeing my target in the distance. The forest. The get away from the evil, power-hungry monster named James. My right foot just landed on the forest border, when my head slammed into the dirt. I was flipped around to see James about to pummel me, probably making me unrecognisable from my own mother, when a high pitched squeal stopped him dead in his tracks. 
+“James! You leave that poor boy alone. Mommy is going to be very upset.” James turned to his parent. 
+“Come one you old hag, let me teach this loser a lesson!” 
+Mrs Crowley turned an unspeakable shade of red. Smoke poured  out her ears as she marched over and dragged James by the ear. 
+“James Michael Crowley! What did you just call me? Your own mother!” She kept droning on and on whilst shoving him into a car. I snicked in delight. 
+“Momma's boy! I yelled as they sped off. I turned to Bert and Oscar, his entourage. 
+“Scat” I spat at them as they kicked the dust before leaving me be.
+<br></br>
+I skulked into the forest, then followed the idiots close by ,making sure they didn't make a mistake. 
+“That loser fell for the distraction.” They happily high-fived each other. My eyes widened as I raced to the spot where my supplies for this weekend were hidden. It had all been trashed. ‘Of course’ I thought as I kicked myself for letting my guard down. 
+“I never get a break around here” I murmur as I start re-packing my belongings, noticing they left everything but my pocket knife. “Those assholes took the knife <i> he </i>  gave me”
+<br></br>
+Sighing in defeat, I lumber off into the woods. I wouldn’t let this little incident ruin my camping. I knew the forest like the back of my hand, having spent 90% of my time in it. The edge was covered in little bushels and trees, but if you went deeper they grew into thick spruce trees and ferns the height of me covered their roots. I found my spot and threw my bags down to lean against the bark of the fallen giant. I left onto the tree. 
+<br></br>
+I slowly padded along the rough bark, hearing every crunch in each step as the forest was seemingly silent. But there really were all sorts of noises. Birds chirping, frogs croaking toads hopping, sparrows flapping and, of course, me crunching. I admired the scenery of the wooden palace. The tree soldiers standing tall, bark armour protecting them. Their green helmets covering the sky, letting little rays of sunshine peek through, just enough to light the way.
+<br></br>
+Breathing in the fresh air, I meet my tower. It’s one of the smaller soldiers, making it perfect for me to climb. I do a small hop and grab onto a branch, the loose bark almost ,making me slip. I hoist myself up and onto the balls of my feet and spring for the next branch, landing on top of it. I look around for my next target when CRACK. Oh no. CRAACK. I’m fatter than I thought. SNAP! I fall to the ground, but quickly jump up, dusting myself off. 
+“I’ll conquer you someday!” I victoriously shake my fist at the tree before strutting back to my campsite.
+<br></br>
+After a few tangles, swear words and threatening to cut it to pieces, I’ve successfully set up my tent. I roll out my sleeping bag and place a lamp on the other side of the tent. 
+“Just like home” I humour myself and I slip out of my makeshift bedroom to hunt for sticks. After gathering a hefty pile, I trudge back to camp, when I notice a fluffy , white blob on the forest floor. I put my sticks in a pile and picked the rabbit up. ‘This was no hunter’ I thought as I inspected the corpse. A hunter wouldn't leave their price in the forest. I flip the body around and notice a small dart with a bamboo body and red feathers attached to the back with some sort of string. “Weird” I have never seen bamboo in this forest.
+<br></br>
+Shrugging the matter off, I pocket the dark and take the sticks back to camp. Normally, I wouldn’t leave the corpse there, but I already had food prepared and who knows where that dart was from.
+<br></br>
+Night was quickly falling as I set up the fire and my coup from a can heated above the fire in its tin. I ate in silence, watching a few pheasants and a rabbit pass by. Finishing off the last potato from the  I head into my tent - leaving the food open to keep an eye on the fire.
+<br></br>
+Before passing out for good, I take a pencil and my notebook and jot down today's events, putting emphasis on the part where I called James a ‘mommma’s boy’. I smirk looking at the words, in the form of my horrendous handwriting, then place the notebook next to my lamp. Last thing I remember were the embers of the fire glowing in the night as the flame danced. 
+<br></br>
+~
+<br></br>
+“Hoo, hee, haa. Hoo, hee, haa” 
+<br></br>
+My body was bobbing to the rhythm of cult-like chanting. “Who the hell changed my alarm tone?” I sleepily ask before realising where I was, what I was doing and that I didn’t even have my phone on me. I shot my eyes open to see…nothing. I’m blinded by what I assume is a blindfold and I squirm to feel ropes constricting me and hands with a firm grip on my body. Out of instinct I try reaching for my knife - forgetting it’s gone. 
+“Oh shit!” I yell out to feel a heavy blow to my head. 
+“What the f-” I pass out, feeling the rush of blood to my head.
+<br></br>
+OH GOSH. I woke up to the feeling of my whale body on fire. Reluctantly, I open my eyes, just to snap them shut from the intense burn. Suddenly I’m stilted higher, so the flames are barely licking ,e. I slowly open my eyes, thankfully they're not burnt this time, but to a horrific sight. Fifty or so people are crowded around me watching me intently. 
+“Ah, gross!” I fake gag. They are wearing little to nothing. 
+“Why are you people almost naked?” I shriek. 
+I, of course, am concerned that I am flowy turning on a spit fire after being kidnapped, but I still do not want to see the sight I was looking at. 
+“Chivee, ooh la!”  One of them yells and lowers me back into the fire. The heat was immense, but at least the thick ropes holding me were burning instead of my skin. 
+Noticing the rope was starting to run thin, I started wracking my brain for a plan. I had no knife or sharp edge, I was being hung over a roaring fire and the ropes keeping me from falling into said fire were burning away…great! Everything is against me!
+<br></br>
+I started panicking, wiggling, squirming, trying desperately to make my escape when it hit me. Then it hit me again. 
+“Oh for pete’s sake, STOP beating me with a stick!” I curse at my captors. After the fourth or so bonk, I had an idea. 
+<br></br>
+I wormed my foot free from the rope and wilted til I was facing the sky, the fire torching my back ‘Now’ I thought as I jammed my foot into the ‘V’ shaped part of the stick, now crushing my foot, but stopping the rotation. The one who was beating me started curing the one who was in charge of turning me. He started beating the turner, yelling orders and despite my situation, I had to stifle a laugh.
+<br></br>
+My foot’s pain started becoming unbearable. Just a few more seconds… 
+“Ahh!” With a yell my foot's toes broke, turning me slightly to the side. I leaned off the pole, my ropes now burnt to a crisp, and rolled away from the fire, probably gaining a bruise or two. The leader of the tribe (I assume) cautiously approached me. 
+The rest of the tribe - Tribe? Cult? Whatever it was - stood there in shock. I picked myself up as one of the leaders cautiously approached me, like a sacred wild beast. 
+“Thanks for kidnapping me” I say with a smile as I punch him in the face. 
+<br></br>
+His body dropped to the floor, almost lifeless. This caused a hoard of what I think are soldiers to rush at me. I ran to one of their raised garden beds and jumped on the edge, then launched myself to a nearby roof, landing with an “oof.” I scrambled up and crouched down, ready to leap if it was needed. My goal was to escape, not start a war.
+<br></br>
+It was only now that I could really inspect my surroundings. There was a thick wall of bamboo surrounding this entire area; now I know where the dart came from, and scattered all around were little huts made of the same bamboo. There was a sort of communal area where the fire was and tree stumps in a circle for chairs, most of which were occupied by tribesmen. Gardens and flowerbeads were in front and to the left of me, and to my far right a few larger buildings, most likely headquarters and schooling buildings.
+<br></br>
+The tribe's people were very diverse, ranging from dark to fair skin, short to long, fat to skinny, old to young. Where were these people from? They wore clothes, if you can even call it that, made of what seemed to be a flax-like material and they had marking of orange, black, white and  - only on the leader, gold. They had pipes and…nun-cuks? Well, that's interesting. The soldiers stared at me in shock for a moment before calling “Cheras” after me. I’ve decided it either means ‘monkey’ or ‘demon’. Snapping out of my trance, I take my leave to go and leap from roof to roof, with soldiers preparing an attack in the form of pushing darts into their pipes. Finally I reach a hut closest to the tall bamboo wall. At this point, I’ve evaded all the darts they'd shot at me and as the others went to fetch more I only had two guards pacing around below me. I now somehow have to scale this monster of a barrier to freedom.
+<br></br>
+I sat down with a ‘huff’, pondering what I should do. The soldiers guarding me, turned to face the crowd, now all the way on the other side of this place. I was stuck, I couldn't stay here forever though. I looked at the building next to me. There were children just outside of it, playing with wooden toys. One of these was a dragon, it resembled Mushu, the little dragon from the movie Mulan. That's it! I jump up and look down at the soldiers. They had nun-chucks on them. Perfect.
+<br></br>
+I landed on top of the first soldier, then sucker punched the second. My fist was bleeding now, but that could wait. I picked up the nun-chuks and limped to the bamboo forest. Tying the weapons to my wrists, I started using them to scale the wall, just like un Mulan. I’m surprised it works, since I stole the idea from a kids movie.
+<br></br>
+Eventually, just as I’m reaching the tip, the rest of the soldiers return and see I’m no longer on my rooftop perch. As I hoist myself onto the thin top of the wall, darts cascade down on me from every direction. Limping my way to the opposite edge of bamboo, a spray of darts almost hits me. If it weren't for my dumb luck, I’d be impaled, but luckily I side-stepped off of the edge and got caught from falling to my death by the nun-chucks.
+<br></br>
+I watched the weapons clatter to the ground and I started slowly descending to the ground. As my right foot touches the ground, I feel a strong jolt of pain. My foot must've taken a turn for the worse. Well, I was the one who broke it in the first place, then used it for running, jumping and climbing. But, nonetheless, I started trudging off. I had no time to waste…
+<br></br>
+“Ok, maybe I have some time to waste” I murmured as I leaned against a tree. The pain was becoming unbearable. I struggled to break a branch off of a tree, but managed to do so and cut my hand in the process. Now, with two busted up hands, a broken foot and a makeshift crutch that was really just a tree branch, I hobbled off. 
+<br></br>
+~
+<br></br>
+It was deja-vu. I woke up in an unfamiliar bed. I seemed to be in a camper van, with beads, jewels and windchimes adoring the walls. I carefully got up and ripped the blankets away, revealing my bandaged foot. 
+“Oh, you’re awake! Darwin, he’s awake!” A lady in her mid fifties walked through the door. She looked like Professor Trelawney from Harry Potter. Her blonde hair poofed up around her, with big glasses and many thick bracelets and shawls adorned her. She had a floral pattern dress and sandals. 
+“Who are you? Why’d you kidnap me?” 
+She laughed and sat next to me. 
+“Oh, silly child. We found you passed out in the woods. So, we patched you up after bringing you here.” She reassuringly patted my leg. “You’ve been out for two days. You must be hungry.” She got up and exited, leaving the door open for me.
+<br></br>
+I limped out to see a small camp-ground, with a barbeque where a male version (minus the glasses) stood. 
+“Hiyya! I’m Darwin, this is Tracey. Have some breakfast” The male version of her, or should I say Darwin, passed me a plate. I wobbled my way to a lawn chair and sat. My plate presented me with two sausages and an egg on top of 2 pieces of toast. I quickly engulfed them and thanked the couple. 
+“So, what were you doing passed out in the woods with a broken foot?” Darwin questioned as he ate. 
+“More importantly, why were you out here all alone?” TRacey eyed me. This flet all otoo familiar. Why did adults always have to pry about lonely kids? 
+“I was camping and a tribe kidnapped me. “ The couple shared strange glances with each other.  We sat in silence whilst they ate, and I noticed a tattoo they both had. It was a weird symbol on the backs of their hands and I've seen it before; bit here? 
+“Go on” Tracey encouraged after a while. 
+I sifted in my seat and pulled out the dart from my pocket. 
+“They cooked me on a fire. I think they were going to eat me. And I’m pretty sure this is theirs” I held up the dart.
+<br></br>
+My body tensed up. My breath caught. My eyes went wide. The dart had the same symbol on it. The dart had the same symbol on it. I lowered the dart to see the pair staring at me, intensely. 
+“Oh, honey. They weren’t going to eat you. They were going to sacrifice you” TRacey smiled a sickly smile. 
+“B-but why?” I stuttered. I never stutter. 
+“Ther’s an ancient prophecy. It says to sacrifice the first child to camp alone in these woods. If you do so, the gods will offer a great reward. The tribe’s been waiting for thirty years.” Darwin started washing the plates whilst calmly explaining such a bizarre concept. 
+“How do you know all this?”
+“We used to be part of the tribe” TRacey motioned to the tattoo “but got to leave”
+“After a long battle that is” Darwin added. 
+I started freaking out, wondering about all the different ways they could kill me. They were a part of a crazy tribe at some point, who knows what they’re capable of! I kept my cool on the outside. 
+“Ok…” I slowly nodded. 
+“Wwe never thought they’d succeed. They’re harmless otherwise. \” Traey leaned forward in her seat. 
+“It’s just, a child shouldn't be out alone in the woods…” Darwin turned and both adults were staring into my soul now. 
+“What do I do?”
+The couple slowly turned to each other then back to me. 
+“Just give us a name, then we’ll give you some symbols. Write these symbols in the sane, and it’s all done. You’ll be safe” Tracey shrugged. Sand…right! There was a small patch of sand in front of the bamboo, circling the whole call.
+<br></br>
+I gripped the piece of paper in my hand, containing the symbols I really owed tracey and Darwin for saving me, but I had to leave them. They were too nosy. Most adults are. I was still limping, but 2 days of rest and medicine helped, so I reached the wall in no time. I really took in the sight of it. Towering bamboo and sand in the deep forest. How have they gone undetected for so long?
+<br></br>
+Making sure to be silent, I ripped a pole of bamboo out of the ground, then used it as a giant pencil to write the symbols into the grains of sand. Spearing the pole into the dirt just outside of the sand, I hobbled off. “Time to get my dad’s knife back” I said, hoping I would reach town soon.
+<br></br>
+~
+<br></br>
+It was almost dark. The leader of the tribe opened the massive bamboo gate and stopped in his tracks, eyeing at the ground. 
+“Chii wa oonee?” the leader's personal soldier enquired if it was the second prophecy. 
+“Wo” he replied yes. The soldier asked what it said. The leader stared for another moment before answering. 
+<br></br>
+"James."
+<br></br>
+</p>
+
+<div id="aha"></div>
+<p class="title"> 
+A Haunted Attraction
+</p>
+<p class="story">
+The density of the room's atmosphere seems to have slowed the ticking of the clock. Ugly, beige walls hug too tight and I smooth out my pink blouse- the stark contrast making my doubts of outfit choice arise again. A lack of air conditioning or windows make for a stuffy environment and I adjust again, this time in discomfort. Just as my eyes settle on the wall calendar, displaying smiling pumpkins despite it being June, the door behind me opens. A woman walks in quite calmly for being 20 minutes late. Her round face is pulled taught by the hair tie taming a wild bunch of blonde curls. She sits with a huff and adjusts her plaid button-up. Her chair squeaks.
+<br></br>
+“Sorry for the wait, running a business and all.”
+<br></br>
+I’m a bit taken back by her apology but offer a small smile in return.
+<br></br>
+“Let’s get on with the interview shall we-” her hand diddles with various papers on the desk before reading from one “-Tate?”
+<br></br>
+*** 
+<br></br>
+“I believe it will benefit me to have workplace experience and feel prepared to dedicate time to those responsibilities.”
+<br></br>
+A not-so-convincing grin adorns my features as I finish a rehearsed answer. My eyes search for any indication on how well I’m doing but all I get is condescension. Fake, something saying “I know.” She quickly glances down and I take the opportunity to dryly swallow the lump in my throat.
+<br></br>
+“And why do you want this job?” her stark, blue eyes are on me again.
+<br></br>
+Deep breath.
+<br></br>
+“Well, I’ve always been a horror fan and since the remodel -”
+<br></br>
+“No, no.”
+<br></br>
+Hand outstretched, almost like she expects me to leap across the desk at her.  “What I really mean, dear, is why the desk clerk? Why not a scare actor?" 
+<br></br>
+Her hand retreats to sit comfortably on her lap and we bathe in silence for a moment. I'm flustered, caught off guard, mouth opening and closing - like a fish - searching for a non-existent answer. The walls move in a little tighter.
+<br></br>
+“I’m not an actor.”
+<br></br>
+“We could teach you.”
+<br></br>
+Her abrupt words almost cut me off again. Shoulders slack as her body relaxes back into that dingy office chair. Squeak. Her piercing gaze breaks for a second, seemingly at the door behind me.
+<br></br>
+“What I mean, dear, is since the remodel we need more actors. Besides, acting ain't that hard.”
+<br></br>
+As another blanket of quiet falls over us, all that can be heard is the ticking clock and- is that a shuffle behind me?
+<br></br>
+“A tour?”
+<br></br>
+A rushed question snaps me back to reality. Her strangely warm smile greets me again. “Hour ‘bout a tour of the place?”
+<br></br>
+***
+<br></br>
+I clasp my hands together as a gust of wind greets us outside the office. My body relaxes a little at the freedom. Our steps echo down the harshly lit corridor that originally led me here. Walls are adorned with a ‘hall-of-fame’ of sorts; photos upon photos. Of the asylum, when it first became Spookies, the very first acting crew. A visual history all up until last year when Ms Wattkins bought the place. A part of me wonders why they’re in high staff demand. Perhaps they quit due to creative differences or simply in protest?
+<br></br>
+Eventually we make a turn and a  few more steps carry us through a door into another crowded room. Overbearing scents of paint, polishes and something sweet hit me. It takes a moment to process it all. The only source of light is provided by yellow bulbs protruding from classic theatre vanities. Various chains, neon stockings and burnt or otherwise ripped clothes hang from every possible place to hang something. The floor is not saved from this treatment as shoes, crumpled plies of fabric, prop weapons and even a warning sign protecting a pool of red oozing out under the bathroom door. The walls are painted with red and white stripes, imitating the classic Big Top. A sturdy pair of hands grasp my shoulders and attempt to street me through as I dodge a faux chainsaw. Further in, we’re met with a group of people, all doused in varying amounts of fake blood. To my left the face of a suspiciously dirty maroon couch. To my right, three new faces lean against a posted wall. I assumed my place is on the couch, but my survival instincts screamed “no”. Who knows what diseases lurk among those cushions. I sit anyway. The seat dips beside me as Ms Wattkins sits, then gestures for the bodies across us to talk.
+<br></br>
+“Yeah, right then. I’m Stewart, but most call me Stu.”
+<br></br>
+A man to the very left starts off. His voice is raspy - akin to that of a smoker - and comes from yellowed teeth. All he wears is jeans and an open hi-vis vest, classy, there's a moment of quiet murmur between him and the blonde beside him.
+<br></br>
+“So, I guess I’m supposed to talk about the Farm, yeah?" Dark eyes glance to Ms Wattkins searching for affirmation. He continues on. 
+<br></br>
+“Yeah, nah, it’s great here. Ever since this place went from Spookies to Watt Farms it’s been busy. But, uh, good busy. Penny over here’s a real champ.”
+<br></br>
+My sight goes to the woman next to me, but only for a split second. I remember when she introduced herself as “Penny Wattkins, this place’s manager. You can call me Penny.” I’ve refrained from directly referring to her ever since. The next in line begins before Stu can start again.
+<br></br>
+“Hi, I’m Danni” almost as second nature her bloodied, manicured hand sticks out at me, but noticing my hesitation, retreats accompanied by a bashful grin. 
+<br></br>
+“You can probably tell, but I’m from the US. and let me tell you something, moving to New Zealand I didn't think I’d find a scare acting job, but here I am” an excited shrug of the shoulders “I kinda found a home too.”
+<br></br>
+Another glance Ms Wattkins way, this time it seems grateful. Flecks of the same fake blood that cakes her hands helps the bright colours of her clothes shine. Part of me assumes she’s behind the reason for whatever red goo is pouring out the bathroom. A hand slowly raised but only halfway; any higher and it could’ve hit the ceiling.
+<br></br>
+“‘M sydney”
+<br></br>
+The voice belonging to the raised hand, coming from the last person in line quietly mumbles. She glances down and for a moment it seems her green eyes are about to produce tears. One shaky breath later and her composure seems re-gained.
+<br></br>
+“I was hesitant about acting at first too, but it’s kinda helped me outta my shell.”
+<br></br>
+‘Too’? How would they know about my reservations? Are they behind that shuffle at the door? Are they-. My line of thought is broken by Ms Wattkins signalling for me to stand. I do, and thank the actors. On our way out, my eyelid is brought back to the bathroom mess. Ms Wattkins pauses for a moment and we both stare at it. Her head moves a fraction towards the acting troupe. The gooey shine reminds me of the substance showered on Danni and Sydney.
+<br></br>
+“Oh…u-uhm” a sweet voice behind me starts.
+<br></br>
+“Sorry, dear” I’m ushered out the room “We’re repainting the bathroom.”
+<br></br>
+*** 
+<br></br>
+“Well?” 
+<br></br>
+Once again it's just me and Ms Wattkins. 
+<br></br>
+“I’m not sure-” I start tentatively “Don’t  get me wrong, you all seem lovely it’s just…” my words trail off and I wished I had the courage to admit this place freaks me out. 
+<br></br>
+With a knowing hum her hand spins me around and we make our way toward the front of the building.
+<br></br>
+“What about the rest of the tour?”
+<br></br>
+She smiles that same motherly smile.
+<br></br>
+“Don’t worry dear. You’ll get it all when you come back for a first day on Monday.”
+<br> </br>
+</p>
 
 </body>
 </html>
