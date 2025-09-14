@@ -16,6 +16,36 @@
 		font-size: 18px;
 	}
 	
+	.warn {
+		font-family: courier new;
+		color: green;
+		font-size: 18px;
+	}
+	
+	.butt-table {
+		border: none;
+	}
+	
+	.button {
+		background-color: 464343;
+		color: green;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
+	}
+	
+	.button:hover {
+		background-color: green;
+		color: 434646;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
+	}
+	
 	.table, th, td {
 		font-family: courier new;
 		color: green;
@@ -36,22 +66,33 @@
 		margin: 2px;
 		padding: 2px;
 	}
-	
-		.home-button {
-		background-color: 464343;
-		color: green;
+		
+	.title {
 		font-family: courier new;
-		padding: 10px 20px;
-		border: none;
-		cursor: pointer;
+		color: green;
+		font-size: 16px;
+		font-weight: bold;
+		font-style: italic;
 		margin: 5px;
+		text-decoration: underline;
 	}
-
+	
+	.story {
+		font-family: courier new;
+		color: green;
+		margin: 10px;
+	}
+	
+	.link {
+		font-family: courier new;
+		color: 551A8B;
+	}
 </style>
 
 
 <h1 class="heading"
 align="center"> 
+<div id="top"></div> 
 Nerdville
 </h1>
 
@@ -60,37 +101,88 @@ align="center">
 The town of all my intellectual essays, musings and other nerd crap
 </h2>
 
-<button class="home-button"
-onclick="window.location.href='index.html'">
-center of the universe
-</button>
-
-<table class="table">
-	<tr class="tr">
-		<th class="th"> title </th>
-		<th class="th"> description </th>
-		<th class="th"> link </th>
-	</tr>
-
-	<tr class="tr">
-		<td class="th"> essay 1</td>
-		<td class="th"> descript 1 </td>
-		<td class="th"> link 1</td>
-	</tr>
-
-	<tr class="tr">
-		<td class="th"> essay 2 </td>
-		<td class="th"> descript 2</td>
-		<td class="th"> link 2 </td>
-	</tr>
-
-	<tr class="tr">
-		<td class="th"> essay 3 </td>
-		<td class="th"> descript 3 </td>
-		<td class="th"> link 3 </td>
+<table class="butt-table"
+align="center">
+	<tr class="butt-table">
+	<td class="butt-table">
+		<button class="button"
+		onclick="window.location.href='index.html'">
+		center of the universe
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='othermes.html'"> 
+		other me's 
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='theatre.html'"> 
+		theatre
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='blog.html'"> 
+		inside-the-mind
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='library.html'"> 
+		dreaming library
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='gallery.html'"> 
+		gallery
+		</button>
+	</td>
 	</tr>
 </table>
 
 
+<table class="table">
+	<tr class="tr">
+		<th class="th"> Title </th>
+		<th class="th"> Date written </th>
+		<th class="th"> Blurb </th>
+		<th class="th"> Link </th>
+	</tr>
+
+	<tr class="tr">
+		<td class="td"> Tummy Time Analysis </td>
+		<td class="td"> 2024 </td>
+		<td class="td">  A short analysis of the visual and 
+		<br></br>narrative language used in <i>Tummy Time</i> 
+		<br></br>(2023)</td>
+		<td class="td"> <a href="tt" class="link">  Teleport </a> </td>
+	</tr>
+</table>
+
+<br></br>
+
+<div id="#tt"></div>
+<p class="title">
+Tummy Time Analysis
+</p>
+<p class="story">
+The opening shot of good luck cards and the following showing a dressing room as the scenery, set up audience expectations of the character as an actor or the host of some kind. This is further supported by the character's repetition of lines greeting an audience. The line “Boy, I have an appetite” alludes to the type of filming he shall be doing and foreshadows the ending of him eating a child. As the character continues getting ready there is an overlay of a voice message informing him “its gonna be live” and “you owe us”, ending on a close up of his panicked face. This gives context of why this character is doing what he’s doing despite his panic, insinuating his fate is awful. The change of lighting from light to darker, yellow hues and short repetitive shots overlapped set the mood for the panic the character is going through. When the filming of the tv show starts, it has cheerful music and bright, colourful set which is contrasted by the baby crying and the main character yelling at it. The final shot of the character holding utensils and the line “lets eat” tells the audience what he is going to do with the baby without directly showing it on screen.
+</p>
+
+
+<footer>
+<p class="warn"
+align="center"><b> ★ All writing by maegan.mp4/moose.does.things ★ </b></p>
+<a href="#top" class="button"> top me up </a>
+</footer>
 </body>
 </html>
+
