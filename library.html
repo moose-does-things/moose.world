@@ -9,35 +9,24 @@
 		font-family: courier new;
 		color: green;
 	}
-	
+		
 	.sub-heading {
 		font-family: courier new;
 		color: green;
 		font-size: 18px;
 	}
 	
-	.table, th, td {
+	.warn {
 		font-family: courier new;
 		color: green;
-		background color: 464343;
-		border: 1px solid green;
-		border-collapse: collapse;
-		margin: 2px;
-		padding: 2px;
+		font-size: 18px;
 	}
 	
-	.tr:hover {
-		background-color: 505050;
-		font-family: courier new;
-		color: green;
-		background color: 464343;
-		border: 2px solid green;
-		border-collapse: collapse;
-		margin: 2px;
-		padding: 2px;
+	.butt-table {
+		border: none;
 	}
 	
-	.home-button {
+	.button {
 		background-color: 464343;
 		color: green;
 		font-family: courier new;
@@ -47,7 +36,7 @@
 		margin: 5px;
 	}
 	
-	.home-button:hover {
+	.button:hover {
 		background-color: green;
 		color: 434646;
 		font-family: courier new;
@@ -55,6 +44,27 @@
 		border: none;
 		cursor: pointer;
 		margin: 5px;
+	}
+	
+	.table, th, td {
+		font-family: courier new;
+		color: green;
+		background color: 464343;
+		border: 2px solid green;
+		border-collapse: collapse;
+		margin: 2px;
+		padding: 2px;
+	}
+	
+	.tr:hover {
+		background-color: 464343;
+		font-family: courier new;
+		color: green;
+		background color: 464343;
+		border: 2px solid green;
+		border-collapse: collapse;
+		margin: 2px;
+		padding: 2px;
 	}
 		
 	.title {
@@ -77,19 +87,13 @@
 		font-family: courier new;
 		color: 551A8B;
 	}
-	
-	.warn {
-		font-family: courier new;
-		color: green;
-		font-size: 18px
-	}
-
 </style>
 
 
 <h1 class="heading"
 align="center"> 
-Dreaming Library 
+<div id="top"></div> 
+Dreaming Library
 </h1>
 
 <h2 class="sub-heading"
@@ -97,10 +101,52 @@ align="center">
 Fictional writings straight from the moose mind
 </h2>
 
-<button class="home-button"
-onclick="window.location.href='index.html'">
-center of the universe
-</button>
+<table class="butt-table"
+align="center">
+	<tr class="butt-table">
+	<td class="butt-table">
+		<button class="button"
+		onclick="window.location.href='index.html'">
+		center of the universe
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='nerdville.html'"> 
+		nerdville
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='othermes.html'"> 
+		other me's 
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='theatre.html'"> 
+		theatre
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='blog.html'"> 
+		inside-the-mind
+		</button>
+	</td>
+	
+	<td class="butt-table"> 
+		<button class="button" 
+		onclick="window.location.href='gallery.html'"> 
+		gallery
+		</button>
+	</td>
+	</tr>
+</table>
 
 <p class="warn">
 <b> !WARNING! </b>
@@ -109,7 +155,6 @@ Any title marked with an * is a work of horror fiction. Read at your own discret
 All of these stories are original works of fiction. No character or scenario is based on reality.
 </p>
 
-<br></br>
 
 <table class="table">
 	<tr class="tr">
@@ -642,5 +687,11 @@ She smiles that same motherly smile.
 <br> </br>
 </p>
 
+<footer>
+<p class="warn"
+align="center"><b> ★ All writing by maegan.mp4/moose.does.things ★ </b></p>
+<a href="#top" class="button"> top me up </a>
+</footer>
 </body>
 </html>
+
