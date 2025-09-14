@@ -5,6 +5,12 @@
 <title> moose's.world </title>
 </head>
 <style>
+
+	.title {
+			font-family: courier new;
+			color: green;
+	}
+		
 	.body {
 		background-color:000000;
 	}
@@ -20,7 +26,7 @@
 		font-size: 18px;
 	}
 	
-		.home-button {
+	.button {
 		background-color: 464343;
 		color: green;
 		font-family: courier new;
@@ -29,11 +35,45 @@
 		cursor: pointer;
 		margin: 5px;
 	}
+	
+	.button:hover {
+		background-color: green;
+		color: 434646;
+		font-family: courier new;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		margin: 5px;
 
+	.error {
+		font-family: courier new;
+		color: green;
+		font-size: 16px;
+	}
+	
+	.table, td, tr {
+		font-family: courier new;
+		color: green;
+		border: none;
+		margin: 1px;
+		padding: 1px;
+	}
+	
+	.warn {
+		font-family: courier new;
+		color: green;
+		font-size: 18px;
+	}
+	
+	.butt-table, btr, btd {
+		border: none;
+	}
+	
 </style>
 
 <h1 class="heading"
 align="center"> 
+<div id="top"></div> 
 le Roux Theatre
 </h1>
 
@@ -42,10 +82,122 @@ align="center">
 A theatre of all my films, and teasers of upcoming films!
 </h2>
 
-<button class="home-button"
-onclick="window.location.href='index.html'">
-center of the universe
-</button>
+<table class="butt-table"
+align="center">
+	<tr class="btr">
+	<td class="btd">
+		<button class="button"
+		onclick="window.location.href='index.html'">
+		center of the universe
+		</button>
+	</td>
+		
+	<td class="btd"> 
+		<button class="button" 
+		onclick="window.location.href='nerdville.html'"> 
+		nerdville
+		</button>
+	</td>
+	
+	<td class="btd"> 
+		<button class="button" 
+		onclick="window.location.href='othermes.html'"> 
+		other me's 
+		</button>
+	</td>
+	
+	<td class="btd"> 
+		<button class="button" 
+		onclick="window.location.href='blog.html'"> 
+		inside-the-mind
+		</button>
+	</td>
+	
+	<td class="btd"> 
+		<button class="button" 
+		onclick="window.location.href='library.html'"> 
+		dreaming library
+		</button>
+	</td>
 
+	<td class="btd"> 
+		<button class="button" 
+		onclick="window.location.href='gallery.html'"> 
+		gallery
+		</button>
+	</td>
+	</tr>
+</table>
+
+<br> </br>
+
+<table class="table"
+align="center">
+	<tr class="table">
+		<td class="title"
+		align="center"> 
+		<b> Croc - 2025 </b>
+			<br> </br>
+			<video width="330" height="240" controls>
+			<source src="Croc.mp4" type="video/mp4">
+			<p class="error"> Your browser can't play this epic picture :(</p>
+			</video>
+			<br style=“width: 50%”></br>
+			David's average, ordinary, perfectly normal life is disrupted.
+		</td>
+		<td class="title"
+		align="center"> 
+		 <b> F.T.H.I.S - 2025 </b>
+			<br> </br>
+			<video width="330" height="240" controls>
+			<source src="FTHIS.mp4" type="video/mp4">
+			<p class="error"> Your browser can't play this epic picture :(</p>
+			</video>
+			<br style=“width: 50%”></br>
+			Take a look at a session of Fairytale Rehab.
+		</td>
+		<td class="title"
+		align="center"> 
+		 <b> Hungry For Love - 2024 </b>
+			<br> </br>
+			<video width="330" height="240" controls>
+			<source src="Hungry For Love.mp4" type="video/mp4">
+			<p class="error"> Your browser can't play this epic picture :(</p>
+			</video>
+			<br style=“width: 50%”></br>
+			Desperate and starving, a girl with an unusual diet hosts a romantic dinner with someone she meets at the dog park. 
+		</td>
+	</tr>
+
+	<tr class="table">
+		<td class="title"
+		align="center"> 
+		<b> Pixie Panic - 2024 </b>
+			<br> </br>
+			<video width="330" height="240" controls>
+			<source src="Pixie Panic.mp4" type="video/mp4">
+			<p class="error"> Your browser can't play this epic picture :(</p>
+			</video>
+			<br style=“width: 50%”></br>
+			A group of fairies are in distress as a nation wide phone-ban in schools puts a stop to their illegal pixie dust business.
+		</td>
+		<td class="title"> <b> COMING SOON! - Clover's World - Vlog #37 </b> <br></br> Em and Zee of Clover's World upload another spectacular vlog and taste test brand new Slusho!  </td>
+		<td class="title"> <b> COMING SOON! - Ultimate Dancer </b> <br></br> Dance Master reckons with the impossible </td>
+	</tr>
+
+	<tr class="table">
+		<td class="title"> <b> UNDER CONSTRUCTION! - So, This Is Christmas </b> <br></br> He never stops searching for you. </td>
+		<td class="title"> <b> UNDER CONSTRUCTION! - Untitled </b> <br></br> Sometimes the past haunts and helps you. </td>
+		<td class="title"> <b> UNDER CONSTRUCTION! - Untitled </b> <br></br> What does one do when a large creature attacks? </td>
+	</tr>
+</table>
+
+
+<footer>
+<p class="warn"
+align="center"><b> ★ Be kind. Rewind. ★ </b></p>
+<a href="#top" class="button"> top me up </a>
+</footer>
 </body>
 </html>
+
